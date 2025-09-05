@@ -1,1 +1,2 @@
-placeholder
+This folder will store trained ML models.
+Do not delete this placeholder file.
