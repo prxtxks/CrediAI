@@ -1,1 +1,1 @@
-# auto-generated placeholder: __init__.py
+touch backend/app/core/__init__.py
