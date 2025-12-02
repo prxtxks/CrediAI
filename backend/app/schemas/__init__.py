@@ -1,1 +1,1 @@
-# auto-generated placeholder: __init__.py
+# Initialize schemas package
