@@ -24,7 +24,7 @@ Credit scoring is the backbone of modern lending. Traditional scoring models oft
 3. **Model Training** → Logistic Regression → Gradient Boosting (XGBoost)  
 4. **Evaluation** → ROC Curves, Confusion Matrices, Precision/Recall  
 5. **Interpretability Layer** → SHAP values explain approvals/denials  
-6. **API Integration (Optional)** → Real-time scoring for fintech dashboards  
+6. **API Integration** → Real-time scoring for fintech dashboards  
 
 ## 📊 Visualizations
 During project execution, generate and showcase:  
