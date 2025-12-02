@@ -81,4 +81,4 @@ const Predictions = () => {
 
 export default Predictions;
 
-// UI improvement pending review
+// improve 
