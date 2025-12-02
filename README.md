@@ -1,32 +1,13 @@
-# 📊 AI-Powered Credit Scoring for Loan Approvals
+# 📊 CrediAI — AI-Powered Credit Scoring for Loan Approvals
 
-![Amexai UI Mocks](./amexai.png)
+![CrediAI UI Mocks](./amexai.png)
 
 ## 🎯 Project Overview
-Credit scoring is the backbone of modern lending. Traditional scoring models often fail to capture nuanced borrower behavior, leading to limited financial inclusion and higher default risks.  
+Credit scoring is the backbone of modern lending. Traditional scoring models often fail to capture nuanced borrower behavior, limiting financial inclusion and increasing default risk.  
 
-This project presents an **AI-powered credit scoring system** that leverages **Python, Scikit-Learn, XGBoost, and PostgreSQL** to build predictive models that are:  
-- ✅ More accurate than rule-based or linear models  
-- ✅ Adaptive to changing borrower profiles  
-- ✅ Explainable, enabling trust and compliance in financial institutions  
+**CrediAI** is an AI-powered credit scoring system designed to automate and improve loan approvals. It leverages machine learning to predict borrower risk more accurately, while remaining interpretable and practical for real-world deployment.  
 
-**Goal:** Develop a scalable, data-driven loan approval engine deployable by banks, fintech startups, or micro-lending organizations.  
-
-
-## 🏛️ Academic / Thesis Context
-This project is structured as a **thesis-style research study** under faculty guidance.  
-
-- **Thesis Goal:** Investigate the predictive power of ensemble ML models (XGBoost) for credit risk scoring.  
-- **Research Methodology:**  
-  1. Collect anonymized borrower datasets (demographics, credit history, transaction data)  
-  2. Preprocess & normalize data using Python + PostgreSQL pipelines  
-  3. Train baseline models (Logistic Regression, Decision Trees) for benchmarking  
-  4. Optimize advanced models (Random Forest, XGBoost)  
-  5. Evaluate with metrics: *ROC-AUC, Precision/Recall, F1-score*  
-  6. Apply explainability tools like **SHAP** and **LIME**  
-- **Faculty Role:** Academic rigor, methodology validation, ethical oversight.  
-
-Suitable for **capstone projects, dissertations, or academic publications**.  
+**Goal:** Build a scalable, data-driven loan approval engine deployable by banks, fintech startups, or micro-lending organizations.  
 
 ## ⚙️ Tech Stack
 - **Programming:** Python 🐍  
@@ -37,7 +18,6 @@ Suitable for **capstone projects, dissertations, or academic publications**.
 - **Explainability:** SHAP, LIME  
 - **Deployment Ready:** Flask / FastAPI  
 
-
 ## 🧩 System Workflow
 1. **Data Ingestion** → PostgreSQL stores borrower & transaction data  
 2. **Preprocessing Pipeline** → Handle missing values, normalize income/spending, encode categoricals  
@@ -46,50 +26,32 @@ Suitable for **capstone projects, dissertations, or academic publications**.
 5. **Interpretability Layer** → SHAP values explain approvals/denials  
 6. **API Integration (Optional)** → Real-time scoring for fintech dashboards  
 
-
 ## 📊 Visualizations
 During project execution, generate and showcase:  
-- 🔥 **Correlation Heatmaps** (Seaborn)  
-- 🔥 **ROC Curves & Confusion Matrices** (Matplotlib / Yellowbrick)  
-- 🔥 **SHAP Summary Plots** (Explainability)  
-- 🔥 **Interactive Dashboards** (Plotly, Tableau, Power BI – optional)  
+- 🔥 Correlation Heatmaps (Seaborn)  
+- 🔥 ROC Curves & Confusion Matrices (Matplotlib / Yellowbrick)  
+- 🔥 SHAP Summary Plots (Explainability)  
+- 🔥 Interactive Dashboards (Plotly, Tableau, Power BI – optional)  
 
 ## 🔮 Results & Insights
-- **Baseline Models (Logistic Regression):** ROC-AUC ≈ *0.72*  
-- **Advanced Models (XGBoost):** ROC-AUC > *0.85*  
-- **Key Insight:** *Transaction history* + *debt-to-income ratio* outperform raw credit scores.  
-- **Business Impact:** *15–20% reduction in defaults* + expanded access for underbanked communities.  
-
+- **Baseline Models (Logistic Regression):** ROC-AUC ≈ 0.72  
+- **Advanced Models (XGBoost):** ROC-AUC > 0.85  
+- **Key Insight:** Transaction history + debt-to-income ratio outperform raw credit scores.  
+- **Business Impact:** 15–20% reduction in defaults + expanded access for underbanked communities.  
 
 ## 📌 Future Work
 - Incorporate **Deep Learning** (TabNet, AutoEncoders)  
 - Expand datasets with **real-time financial behavior**  
 - Build **fairness-aware ML pipelines** (reduce bias)  
 - Deploy as a **production-ready API** for micro-lenders  
-
-
-## 🌍 Why This Matters
-Financial inclusion is a global challenge. With **responsible AI credit scoring**, we can:  
-- Empower underserved communities with fair loan access  
-- Help banks reduce risk with accurate borrower profiling  
-- Contribute to the shift toward **AI-driven financial systems**  
-
-
-## 👨‍🏫 Thesis / Professor Alignment
-This project is designed to balance **academic rigor** and **industry relevance**.  
-
-Faculty provide:  
-- 📚 Advanced statistical & ML guidance  
-- ⚖️ Ethical AI oversight  
-- 📝 Mentorship toward **publication / conference submissions**  
-
+- **Collaborate with team members and potential faculty mentors** to expand research and implementation  
 
 ## 🚀 How to Run Locally
 
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/ai-credit-scoring.git
-cd ai-credit-scoring
+git clone https://github.com/yourusername/credi-ai.git
+cd credi-ai
 
 # Setup Environment
 pip install -r requirements.txt
@@ -104,4 +66,11 @@ python scripts/train.py
 python scripts/evaluate.py
 ```
 
+## 🌟 Inspiration
+
+Financial decision-making is often left to humans combing through spreadsheets, missing subtle patterns.
+
+Yet, that is exactly what we ask of our best financial analysts. They hunt for correlations, spot anomalies, and calculate risk while the underlying patterns hide in the noise.
+
+That's why: **CrediAI**: an AI-powered credit scoring assistant that processes complex borrower data instantly, highlights critical risk factors, and provides actionable insights to improve decision-making.
 
