@@ -1,4 +1,4 @@
-# 📊 CrediAI — AI-Powered Credit Scoring for Loan Approvals
+# 📊 AI-Powered Credit Scoring for Loan Approvals
 
 ![CrediAI UI Mocks](./amexai.png)
 
